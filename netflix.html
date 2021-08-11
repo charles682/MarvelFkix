@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/netflix.css" />
+    <title>Netflix</title>
+    <!---responcividade-->
+    <link rel="stylesheet" href="css/responcividade.css" />
+    <!--OWl -->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2 class="logo">MarvelFlix</h2>
+        <nav>
+          <a href="http://">Inicio</a>
+          <a href="http://">Series</a>
+          <a href="http://">Filmes</a>
+          <a href="http://">Documentarios</a>
+        </nav>
+        <div class="logar">
+          <button class="botoesprincipal">
+            <a href="#">Cadastrar</a>
+          </button>
+          <button class="botoesprincipal">
+            <a href="#">Entrar</a>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">Vingadores Guerra Infinita</h3>
+          <p class="descricao">
+            Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu
+            inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar
+            todas as seis pedras infinitas, Thanos planeja usá-las para infligir
+            sua vontade maléfica sobre a realidade.
+          </p>
+          <div class="botoes">
+            <button role="button" class="botao">
+              <i class="fas fa-play"></i>
+              ASSISTIR AGORA
+            </button>
+            <button role="button" class="botao">
+              <i class="fas fa-info-circle"></i>
+              MAIS INFORMAÇÔES
+            </button>
+          </div>
+          <!--botoes-->
+        </div>
+        <!--container-->
+      </div>
+      <!--filme-principal-->
+    </main>
+    <div class="carrosel-filmes">
+      <h4 class="reference">Filmes Recomendado</h4>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filme" src="img/thor.jpg" />
+          <h4>Thor</h4>
+          <p id="mousemove" onmouseover="trocar()" onmouseout="voltar()"><br>(Sinopse passar o mouse aqui!)
+          </p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/thor2.jpg" />
+          <h4>Thor mundo sombrio</h4>
+          <p id="move" onmouseover="trocar1()" onmouseout="voltar1()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/thor3.jpg"/>
+          <h4>Thor Ragnarok</h4>
+          <p id="move2" onmouseover="trocar2()" onmouseout="voltar2()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/guerra civil.jpg" />
+          <h4>Capitão America - Guera Civil</h4>
+          <p id="move3" onmouseover="trocar3()" onmouseout="voltar3()"><br>(Sinopse passar o mouse aqui!)</p>
+
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/homendeferro.jpg" />
+          <h4>Homem de Ferro 3</h4>
+          <p id="move4" onmouseover="trocar4()" onmouseout="voltar4()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/hulk.jpg" />
+          <h4>O Incrível Hulk</h4>
+          <p id="move5" onmouseover="trocar5()" onmouseout="voltar5()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/doutor.jpg" />
+          <h4>Doutor Estranho</h4>
+          <p id="move6" onmouseover="trocar6()" onmouseout="voltar6()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/guardioes.jpg"/>
+          <h4>Guardiões da Galáxia</h4>
+          <p id="move7" onmouseover="trocar7()" onmouseout="voltar7()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/aranha.jpg" />
+          <h4>Homem-Aranha: Longe de Casa</h4>
+          <p id="move8" onmouseover="trocar8()" onmouseout="voltar8()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini10.jpg" />
+          <h4>Vingadores - Guerra Infinita</h4>
+          <p id="move9" onmouseover="trocar9()" onmouseout="voltar9()"><br>(Sinopse passar o mouse aqui!)</p>
+        </div>
+      </div>
+      <!--owl-carousel owl-theme-->
+    </div>
+    <!--carrosel-filmes-->
+    <div class="separar"></div>
+    <footer>
+      <div class="site-footer">
+        <H2 class="footer-duvida">Dúvidas?</H2>
+        <ul>
+          <li><a href="#">Perguntas Frequentes</a></li>
+          <li><a href="#">Relações com investidores</a></li>
+          <li><a href="#">Formas de assistir</a></li>
+          <li> <a href="3">nformações corporativas</a></li>
+          <li><a href="#">Só na Marvelflix</a></li>
+        </ul>
+      </div>
+      <div class="site-footer">
+        <ul>
+          <li><a href="#">Centro de ajuda</a></li>
+          <li><a href="#">Carreiras</a></li>
+          <li><a href="#">Termos de uso</a></li>
+          <li> <a href="#">Entre em contato</a></li>
+        </ul>
+      </div>
+      <div class="site-footer">
+        <ul>
+          <li><a href="#">Conta</a></li>
+          <li><a href="#">Resgatar cartão pré-pago</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li> <a href="#">Teste de velocidade</a></li>
+        </ul>
+      </div>
+      <div class="site-footer">
+        <ul>
+          <li><a href="#">Imprensa</a></li>
+          <li><a href="#">Comprar cartão pré-pago</a></li>
+          <li><a href="#">Preferências de cookies</a></li>
+          <li> <a href="#">Avisos legais</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/fd67faa339.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/olw/jquery.min.js"></script>
+    <script src="js/olw/owl.carousel.min.js"></script>
+    <script src="js/olw/setup.js"></script>
+  </body>
+</html>

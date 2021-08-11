@@ -1,0 +1,86 @@
+@media screen and (max-width:700px) {
+  header .container{
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    }
+    .botao{
+      margin-top: 5px;
+      width: 190px;
+      height: 60px;
+    }
+    .logar{
+      margin-bottom: 1rem;
+    }
+    nav a{
+      margin-bottom: 1rem;
+    }
+    #mousemove{
+      text-align: center;
+    }
+    #move{
+      text-align: center;
+    }
+    #move2{
+      text-align: center;
+    }
+    #move3{
+      text-align: center;
+    }
+    #move4{
+      text-align: center;
+    }
+    #move5{
+      text-align: center;
+    }
+    #move6{
+      text-align: center;
+    }
+    #move7{
+      text-align: center;
+    }
+    #move8{
+      text-align: center;
+    }
+    #move9{
+      text-align: center;
+    }
+    footer{
+      height: 15rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    
+    }
+     
+    .footer-duvida{
+    color: #aaa;
+    
+    }
+    
+    .site-footer{
+      margin-top: 2rem;
+      margin-left: 10rem;
+    }
+    .site-footer ul {
+        list-style: none;
+      }
+    .site-footer ul li{
+        height: 2rem;
+      }
+
+    .site-footer a{
+        text-decoration: none;
+        color: #aaa;
+        padding: 1rem;
+
+}
+}
+
+@media screen  and (min-width:1000px){
+  .descricao{
+    width: 50%;
+  }
+}
+
